@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html data-cast-api-enabled="true" lang="en">
+ <head>
+  <style name="www-roboto">
+   @font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51S7ACc6CsE.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xIIzc.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc9.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxP.ttf)format('truetype');}
+  </style>
+  <script name="www-roboto">
+   if (document.fonts && document.fonts.load) {document.fonts.load("400 10pt Roboto", "E");document.fonts.load("500 10pt Roboto", "E");}
+  </script>
+  <script>
+   var ytcsi = {gt: function(n) {n = (n || '') + 'data_';return ytcsi[n] || (ytcsi[n] = {tick: {},info: {}});},now: (window.performance && window.performance.timing &&window.performance.now && window.performance.timing.navigationStart) ?function() {return window.performance.timing.navigationStart +window.performance.now();} :function() {return (new Date()).getTime();},tick: function(l, t, n) {ticks = ytcsi.gt(n).tick;var v = t || ytcsi.now();if (ticks[l]) {ticks['_' + l] = (ticks['_' + l] || [ticks[l]]);ticks['_' + l].push(v);}ticks[l] = v;},info: function(k, v, n) {ytcsi.gt(n).info[k] = v;},setStart: function(s, t, n) {ytcsi.info('yt_sts', s, n);ytcsi.tick('_start', t, n);}};(function(w, d) {ytcsi.setStart('dhs', w.performance ? w.performance.timing.responseStart : null);var isPrerender = (d.visibilityState || d.webkitVisibilityState) == 'prerender';var vName = (!d.visibilityState && d.webkitVisibilityState)? 'webkitvisibilitychange' : 'visibilitychange';if (isPrerender) {ytcsi.info('prerender', 1);var startTick = function() {ytcsi.setStart('dhs');d.removeEventListener(vName, startTick);};d.addEventListener(vName, startTick, false);}if (d.addEventListener) {d.addEventListener(vName, function() {ytcsi.tick('vc');}, false);}function isGecko() {if (!w.navigator || !w.navigator.userAgent) {return false;}var ua = w.navigator.userAgent;return ua.indexOf('Gecko') > 0 &&ua.toLowerCase().indexOf('webkit') < 0 &&ua.indexOf('Edge') < 0 &&ua.indexOf('Trident') < 0 &&ua.indexOf('MSIE') < 0;}if (isGecko()) {var isHidden = (d.visibilityState || d.webkitVisibilityState) == 'hidden';if (isHidden) {ytcsi.tick('vc');}}var slt = function(el, t) {setTimeout(function() {var n = ytcsi.now();el.loadTime = n;if (el.slt) {el.slt();}}, t);};w.__ytRIL = function(el) {if (!el.getAttribute('data-thumb')) {if (w.requestAnimationFrame) {w.requestAnimationFrame(function() {slt(el, 0);});} else {slt(el, 16);}}};})(window, document);
+  </script>
+  <script>
+   var ytcfg = {d: function() {return (window.yt && yt.config_) || ytcfg.data_ || (ytcfg.data_ = {});},get: function(k, o) {return (k in ytcfg.d()) ? ytcfg.d()[k] : o;},set: function() {var a = arguments;if (a.length > 1) {ytcfg.d()[a[0]] = a[1];} else {for (var k in a[0]) {ytcfg.d()[k] = a[0][k];}}}};
+  </script>
+  <script>
+   ytcfg.set("ROOT_VE_TYPE", 3854);ytcfg.set("EVENT_ID", "ZoWWXuqcE5HL3LUPi-mEaA");
+  </script>
+  <script>
+   window.yterr = window.yterr || true;
+  </script>
+  <script>
+   (function(){/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+var a={a:"content-snap-width-1",b:"content-snap-width-2",f:"content-snap-width-3"};function f(){var c=[],b;for(b in a)c.push(a[b]);return c}
+function h(c){var b=f().concat(["guide-pinned","show-guide"]),d=b.length,g=[];c.replace(/\S+/g,function(e){for(var k=0;k<d;k++)if(e==b[k])return;g.push(e)});
+return g}
+;function l(c,b,d){var g=document.getElementsByTagName("html")[0],e=h(g.className);c&&1251<=(window.innerWidth||document.documentElement.clientWidth)&&(e.push("guide-pinned"),b&&e.push("show-guide"));d&&(d=(window.innerWidth||document.documentElement.clientWidth)-21-50,1251<=(window.innerWidth||document.documentElement.clientWidth)&&c&&b&&(d-=230),e.push(1262<=d?"content-snap-width-3":1056<=d?"content-snap-width-2":"content-snap-width-1"));g.className=e.join(" ")}
+var m=["yt","www","masthead","sizing","runBeforeBodyIsReady"],n=this||self;m[0]in n||"undefined"==typeof n.execScript||n.execScript("var "+m[0]);for(var p;m.length&&(p=m.shift());)m.length||void 0===l?n[p]&&n[p]!==Object.prototype[p]?n=n[p]:n=n[p]={}:n[p]=l;}).call(this);
+
+      try {window.ytbuffer = {};ytbuffer.handleClick = function(e) {var element = e.target || e.srcElement;while (element.parentElement) {if (/(^| )yt-can-buffer( |$)/.test(element.className)) {window.ytbuffer = {bufferedClick: e};element.className += ' yt-is-buffered';break;}element = element.parentElement;}};if (document.addEventListener) {document.addEventListener('click', ytbuffer.handleClick);} else {document.attachEvent('onclick', ytbuffer.handleClick);}} catch(e) {}
+
+    yt.www.masthead.sizing.runBeforeBodyIsReady(true,true,true);
+  </script>
+  <script name="scheduler/scheduler" src="/yts/jsbin/scheduler-vflIPMFaH/scheduler.js" type="text/javascript">
+  </script>
+  <link href="/yts/cssbin/www-core-vflRlRixQ.css" name="www-core" rel="stylesheet"/>
+  <link href="/yts/cssbin/www-home-c4-vfl182B0f.css" name="www-home-c4" rel="stylesheet"/>
+  <link href="/s/player/4fbb4d5b/www-player.css" name="player/www-player" rel="stylesheet"/>
+  <link href="/yts/cssbin/www-pageframe-vfldKQBmr.css" name="www-pageframe" rel="stylesheet"/>
+  <link href="/yts/cssbin/www-guide-vflybhooe.css" name="www-guide" rel="stylesheet"/>
+  <title>
+   YouTube
+  </title>
+  <link href="https://www.youtube.com/" rel="canonical"/>
+  <link href="https://m.youtube.com/" media="handheld" rel="alternate"/>
+  <link href="https://m.youtube.com/" media="only screen and (max-width: 640px)" rel="alternate"/>
+  <meta content="Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube." name="description"/>
+  <meta content="video, sharing, camera phone, video phone, free, upload" name="keywords"/>
+  <link href="/manifest.json" rel="manifest"/>
+  <link href="https://www.youtube.com/opensearch?locale=en_US" rel="search" title="YouTube Video Search" type="application/opensearchdescription+xml"/>
+  <link href="https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="/yts/img/favicon_32-vflOogEID.png" rel="icon" sizes="32x32"/>
+  <link href="/yts/img/favicon_48-vflVjB_Qk.png" rel="icon" sizes="48x48"/>
+  <link href="/yts/img/favicon_96-vflW9Ec0w.png" rel="icon" sizes="96x96"/>
+  <link href="/yts/img/favicon_144-vfliLAfaB.png" rel="icon" sizes="144x144"/>
+  <meta content="#ff0000" name="theme-color"/>
+  <meta content="/yts/img/yt_1200-vflhSIVnY.png" property="og:image"/>
+  <meta content="87741124305" property="fb:app_id"/>
+  <link href="https://plus.google.com/115229808208707341778" rel="publisher"/>
+  <link href="android-app://com.google.android.youtube/http/www.youtube.com/" rel="alternate"/>
+  <link href="ios-app://544007664/vnd.youtube/www.youtube.com/" rel="alternate"/>
+  <style>
+   .exp-invert-logo .hats-logo {background: no-repeat url(/yts/img/ringo/hitchhiker/logo_mini_gray-vflfanGkh.png);width: 65px;height: 15px;}.exp-invert-logo #header:before,.exp-invert-logo .ypc-join-family-header .logo,.exp-invert-logo #footer-logo .footer-logo-icon,.exp-invert-logo #yt-masthead #logo-container .logo,.exp-invert-logo #masthead #logo-container,.exp-invert-logo .admin-masthead-logo a,.exp-invert-logo #yt-sidebar-styleguide-logo #logo {background: no-repeat url(/yts/img/ringo/hitchhiker/logo_small-vflHpzGZm.png);width: 100px;height: 30px;}.exp-invert-logo.inverted-hdpi #header:before,.exp-invert-logo.inverted-hdpi .ypc-join-family-header .logo,.exp-invert-logo.inverted-hdpi #footer-logo .footer-logo-icon,.exp-invert-logo.inverted-hdpi #yt-masthead #logo-container .logo,.exp-invert-logo.inverted-hdpi #masthead #logo-container,.exp-invert-logo.inverted-hdpi .admin-masthead-logo a,.exp-invert-logo.inverted-hdpi #yt-sidebar-styleguide-logo #logo {background: no-repeat url(/yts/img/ringo/hitchhiker/logo_small_2x-vfl4_cFqn.png);background-size: 100px 30px;width: 100px;height: 30px;}.exp-invert-logo.exp-fusion-nav-redesign .masthead-logo-renderer-logo {background: no-repeat url(/yts/img/ringo/hitchhiker/yt_play_logo-vflLfk4yD.png);width: 40px;height: 28px;}.exp-invert-logo.inverted-hdpi.exp-fusion-nav-redesign .masthead-logo-renderer-logo {background: no-repeat url(/yts/img/ringo/hitchhiker/yt_play_logo_2x-vflXx5Pg3.png);width: 40px;height: 28px;}@media screen and (max-width: 656px) {.exp-invert-logo #yt-masthead #logo-container .logo {background: no-repeat url(/yts/img/ringo/hitchhiker/yt_play_logo-vflLfk4yD.png);width: 40px;height: 28px;}.exp-invert-logo.inverted-hdpi #yt-masthead #logo-container .logo {background: no-repeat url(/yts/img/ringo/hitchhiker/yt_play_logo_2x-vflXx5Pg3.png);background-size: 40px 28px;width: 40px;height: 28px;}}@media only screen and (min-width: 0px) and (max-width: 498px),only screen and (min-width: 499px) and (max-width: 704px) {.exp-invert-logo.exp-responsive #yt-masthead #logo-container {background: no-repeat url(/yts/img/ringo/hitchhiker/yt_play_logo-vflLfk4yD.png);width: 40px;height: 28px;}.exp-invert-logo.inverted-hdpi.exp-responsive #yt-masthead #logo-container {background: no-repeat url(/yts/img/ringo/hitchhiker/yt_play_logo_2x-vflXx5Pg3.png);background-size: 40px 28px;width: 40px;height: 28px;}}.exp-invert-logo #yt-masthead #logo-container .logo-red {background: no-repeat url(/yts/img/ringo/hitchhiker/logo_youtube_red-vflZxcSR1.png);width: 132px;height: 30px;}.exp-invert-logo.inverted-hdpi #yt-masthead #logo-container .logo-red {background: no-repeat url(/yts/img/ringo/hitchhiker/logo_youtube_red_2x-vflOSHA_n.png);background-size: 132px 30px;width: 132px;height: 30px;}.exp-invert-logo #yt-masthead #logo-container .logo-premium {background: no-repeat url(/yts/img/ringo/hitchhiker/logo_youtube_premium-vfltrvziB.png);width: 108px;height: 30px;}.exp-invert-logo.inverted-hdpi #yt-masthead #logo-container .logo-premium {background: no-repeat url(/yts/img/ringo/hitchhiker/logo_youtube_premium_2x-vflxcbz_g.png);background-size: 108px 30px;width: 108px;height: 30px;}.exp-invert-logo .guide-item .guide-video-youtube-red-icon {background: no-repeat url(/yts/img/ringo/hitchhiker/video_youtube_red-vflovGTdz.png);width: 20px;height: 20px;}.exp-invert-logo.inverted-hdpi .guide-item .guide-video-youtube-red-icon {background: no-repeat url(/yts/img/ringo/hitchhiker/video_youtube_red_2x-vflqMdgEM.png);background-size: 20px 20px;width: 20px;height: 20px;}.exp-invert-logo .guide-item:hover .guide-video-youtube-red-icon,.exp-invert-logo .guide-item.guide-item-selected .guide-video-youtube-red-icon {background: no-repeat url(/yts/img/ringo/hitchhiker/video_youtube_red_hover-vflgV4Gv0.png);width: 20px;height: 20px;}.exp-invert-logo.inverted-hdpi .guide-item:hover .guide-video-youtube-red-icon,.exp-invert-logo.inverted-hdpi .guide-item.guide-item-selected .guide-video-youtube-red-icon {background: no-repeat url(/yts/img/ringo/hitchhiker/video_youtube_red_hover_2x-vflYjZHvf.png);background-size: 20px 20px;width: 20px;height: 20px;}.exp-invert-logo li.guide-section h3,.exp-invert-logo li.guide-section h3 a {color: #f00;}.exp-invert-logo a.yt-uix-button-epic-nav-item:hover,.exp-invert-logo a.yt-uix-button-epic-nav-item.selected,.exp-invert-logo a.yt-uix-button-epic-nav-item.yt-uix-button-toggled,.exp-invert-logo a.yt-uix-button-epic-nav-item.partially-selected,.exp-invert-logo a.yt-uix-button-epic-nav-item.partially-selected:hover,.exp-invert-logo button.yt-uix-button-epic-nav-item:hover,.exp-invert-logo button.yt-uix-button-epic-nav-item.selected,.exp-invert-logo button.yt-uix-button-epic-nav-item.yt-uix-button-toggled,.exp-invert-logo .epic-nav-item:hover,.exp-invert-logo .epic-nav-item.selected,.exp-invert-logo .epic-nav-item.yt-uix-button-toggled,.exp-invert-logo .epic-nav-item-heading,.exp-invert-logo .yt-gb-shelf-item-thumbtab.yt-gb-selected-shelf-tab::before {border-color: #f00;}.exp-invert-logo .resume-playback-progress-bar,.exp-invert-logo .yt-uix-button-subscribe-branded,.exp-invert-logo .yt-uix-button-subscribe-branded[disabled],.exp-invert-logo .yt-uix-button-subscribe-branded[disabled]:hover,.exp-invert-logo .yt-uix-button-subscribe-branded[disabled]:active,.exp-invert-logo .yt-uix-button-subscribe-branded[disabled]:focus,.exp-invert-logo .sb-notif-on .yt-uix-button-content,.exp-invert-logo .guide-item.guide-item-selected,.exp-invert-logo .guide-item.guide-item-selected:hover,.exp-invert-logo .guide-item.guide-item-selected .yt-deemphasized-text,.exp-invert-logo .guide-item.guide-item-selected:hover .yt-deemphasized-text {background-color: #f00;}.exp-invert-logo .yt-uix-button-subscribe-branded:hover {background-color: #d90a17;}.exp-invert-logo .yt-uix-button-subscribe-branded.yt-is-buffered,.exp-invert-logo .yt-uix-button-subscribe-branded:active,.exp-invert-logo .yt-uix-button-subscribe-branded.yt-uix-button-toggled,.exp-invert-logo .yt-uix-button-subscribe-branded.yt-uix-button-active,.exp-invert-logo .yt-uix-button-subscribed-branded.external,.exp-invert-logo .yt-uix-button-subscribed-branded.external[disabled],.exp-invert-logo .yt-uix-button-subscribed-branded.external:active,.exp-invert-logo .yt-uix-button-subscribed-branded.external.yt-uix-button-toggled,.exp-invert-logo .yt-uix-button-subscribed-branded.external.yt-uix-button-active {background-color: #a60812;}
+  </style>
+  <style>
+   .exp-invert-logo #header:before, .exp-invert-logo .ypc-join-family-header .logo, .exp-invert-logo #footer-logo .footer-logo-icon, .exp-invert-logo #yt-masthead #logo-container .logo, .exp-invert-logo #masthead #logo-container, .exp-invert-logo .admin-masthead-logo a, .exp-invert-logo #yt-sidebar-styleguide-logo #logo { background: no-repeat url(/yts/img/ringo/hitchhiker/logo_small_2x-vfl4_cFqn.png); background-size: 100px 30px; } .exp-invert-logo #yt-masthead #logo-container .logo-red { background: no-repeat url(/yts/img/ringo/hitchhiker/logo_youtube_red_2x-vflOSHA_n.png); background-size: 132px 30px; } @media only screen and (min-width: 0px) and (max-width: 498px), only screen and (min-width: 499px) and (max-width: 704px) { .exp-invert-logo.exp-responsive #yt-masthead #logo-container { background: no-repeat url(/yts/img/ringo/hitchhiker/yt_play_logo_2x-vflXx5Pg3.png); background-size: 40px 28px; } } .guide-sort-container {display: none}
+  </style>
+ </head>
+ <body class="visibility-logging-enabled ltr exp-invert-logo exp-kevlar-settings exp-mouseover-img exp-responsive exp-search-big-thumbs site-center-aligned site-as-giant-card guide-pinning-enabled not-nirvana-dogfood flex-width-enabled flex-width-enabled-snap delayed-frame-styles-not-in" data-spf-name="other" dir="ltr" id="body">
+  <div id="early-body">
+  </div>
+  <div id="body-container">
+   <div id="a11y-announcements-container" role="alert">
+    <div id="a11y-announcements-message">
+    </div>
+   </div>
+   <form action="/logout" method="POST" name="logoutForm">
+    <input name="action_logout" type="hidden" value="1"/>
+   </form>
+   <div id="masthead-positioner">
+    <div id="ticker-content">
+    </div>
+    <div class="clearfix yt-base-gutter" id="yt-masthead-container">
+     <button class="skip-nav" data-target-id="main" id="a11y-skip-nav" tabindex="3">
+      Skip navigation
+     </button>
+     <div id="yt-masthead">
+      <div class="yt-masthead-logo-container">
+       <button aria-controls="appbar-guide-menu" aria-label="Guide" class="yt-uix-button yt-uix-button-size-default yt-uix-button-text yt-uix-button-empty yt-uix-button-has-icon appbar-guide-toggle appbar-guide-clickable-ancestor" id="appbar-guide-button" onclick=";return false;" type="button">
+        <span class="yt-uix-button-icon-wrapper">
+         <span class="yt-uix-button-icon yt-uix-button-icon-appbar-guide yt-sprite">
+         </span>
+        </span>
+       </button>
+       <div id="appbar-main-guide-notification-container">
+       </div>
+       <span id="yt-masthead-logo-fragment">
+        <a class="masthead-logo-renderer yt-uix-sessionlink spf-link" data-sessionlink="itct=CAMQsV4iEwj24ZOoxOnoAhXkxXMBHcvpBno" href="/" id="logo-container" title="YouTube Home">
+         <span class="logo masthead-logo-renderer-logo yt-sprite" title="YouTube Home">
+         </span>
+        </a>
+       </span>
+      </div>
+      <div id="yt-masthead-signin">
+       <a class="yt-uix-button yt-uix-sessionlink yt-uix-button-opacity yt-uix-button-size-default yt-uix-button-has-icon yt-uix-tooltip yt-uix-button-empty" data-sessionlink="ei=ZoWWXuqcE5HL3LUPi-mEaA&amp;feature=mhsb" href="//www.youtube.com/upload" id="upload-btn" title="Upload">
+        <span class="yt-uix-button-icon-wrapper">
+         <span class="yt-uix-button-icon yt-uix-button-icon-material-upload yt-sprite">
+         </span>
+        </span>
+       </a>
+       <div class="signin-container">
+        <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-primary" href="https://accounts.google.com/ServiceLogin?passive=true&amp;hl=en&amp;uilel=3&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fnext%3D%252F%26action_handle_signin%3Dtrue%26hl%3Den%26app%3Ddesktop%26feature%3Dsign_in_button&amp;service=youtube" onclick=";window.location.href=this.getAttribute('href');return false;" role="link" type="button">
+         <span class="yt-uix-button-content">
+          Sign in
+         </span>
+        </button>
+        <iframe id="signin-passive" src="https://accounts.google.com/ServiceLogin?passive=true&amp;hl=en&amp;uilel=3&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fnext%3D%252Fsignin_passive%26action_handle_signin%3Dtrue%26hl%3Den%26app%3Ddesktop%26feature%3Dpassive&amp;service=youtube">
+        </iframe>
+       </div>
+      </div>
+      <div id="yt-masthead-content">
+       <form action="/results" class="search-form consolidated-form vve-check" data-clicktracking="CAEQ7VAiEwjq55GoxOnoAhWRJbcAHYs0AQ0ojh4" data-visibility-tracking="CAEQ7VAiEwjq55GoxOnoAhWRJbcAHYs0AQ0ojh4" id="masthead-search" onsubmit="if (document.getElementById('masthead-search-term').value == '') return false;">
+        <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default search-btn-component search-button" dir="ltr" id="search-btn" onclick="if (document.getElementById('masthead-search-term').value == '') return false; document.getElementById('masthead-search').submit(); return false;;return true;" tabindex="2" type="submit">
+         <span class="yt-uix-button-content">
+          Search
+         </span>
+        </button>
+        <div class="masthead-search-terms-border" dir="ltr" id="masthead-search-terms">
+         <input aria-label="Search" autocomplete="off" autofocus="" class="search-term masthead-search-renderer-input yt-uix-form-input-bidi" id="masthead-search-term" name="search_query" onkeydown="if (!this.value &amp;&amp; (event.keyCode == 40 || event.keyCode == 32 || event.keyCode == 34)) {this.onkeydown = null; this.blur();}" placeholder="Search" tabindex="1" title="Search" type="text" value=""/>
+        </div>
+       </form>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix" id="masthead-appbar-container">
+     <div id="masthead-appbar">
+      <div class="" id="appbar-content">
+       <div class="appbar-content-hidable" id="appbar-nav">
+        <ul class="appbar-nav-menu">
+         <li>
+          <h2 aria-selected="true" class="epic-nav-item-heading">
+           Home
+          </h2>
+         </li>
+         <li>
+          <a aria-selected="false" class="yt-uix-button spf-link yt-uix-sessionlink yt-uix-button-epic-nav-item yt-uix-button-size-default" data-sessionlink="ei=ZoWWXuqcE5HL3LUPi-mEaA&amp;ved=CBYQwy0YASITCOrnkajE6egCFZEltwAdizQBDSiOHg" href="/feed/trending?disable_polymer=1">
+           <span class="yt-uix-button-content">
+            Trending
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div id="masthead-positioner-height-offset">
+   </div>
+   <div id="page-container">
+    <div class="home clearfix" id="page">
+     <div class="yt-scrollbar" id="guide">
+      <div class="appbar-menu appbar-guide-menu-layout appbar-guide-clickable-ancestor yt-uix-scroller yt-uix-tdl" id="appbar-guide-menu" role="navigation">
+       <div id="guide-container">
+        <div class="guide-module-content yt-scrollbar">
+         <ul class="guide-toplevel">
+          <li class="guide-section vve-check" data-visibility-tracking="CAwQ5isYACITCJ34k6jE6egCFTbCcwEdIywL0g==">
+           <div class="guide-item-container personal-item">
+            <ul class="guide-user-links yt-uix-tdl yt-box" role="menu">
+             <li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CA8QtSwYACITCJ34k6jE6egCFTbCcwEdIywL0g==" id="what_to_watch-guide-item" role="menuitem">
+              <a class="guide-item yt-uix-sessionlink yt-valign spf-link guide-item-selected" data-external-id="what_to_watch" data-serialized-endpoint="0qDduQEREg9GRXdoYXRfdG9fd2F0Y2g%3D" data-sessionlink="ei=ZoWWXuqcE5HL3LUPi-mEaA&amp;feature=g-system&amp;ved=CAUQtSwYACITCOrnkajE6egCFZEltwAdizQBDSiOHg" data-visibility-tracking="CA8QtSwYACITCJ34k6jE6egCFTbCcwEdIywL0g==" href="/" title="Home">
+               <span class="yt-valign-container">
+                <span class="thumb guide-what-to-watch-icon yt-sprite">
+                </span>
+                <span class="display-name no-count">
+                 <span>
+                  Home
+                 </span>
+                </span>
+               </span>
+              </a>
+             </li>
+             <li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CA4QtSwYASITCJ34k6jE6egCFTbCcwEdIywL0g==" id="trending-guide-item" role="menuitem">
+              <a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="trending" data-serialized-endpoint="0qDduQEMEgpGRXRyZW5kaW5n" data-sessionlink="ei=ZoWWXuqcE5HL3LUPi-mEaA&amp;feature=g-trending&amp;ved=CAYQtSwYASITCOrnkajE6egCFZEltwAdizQBDSiOHg" data-visibility-tracking="CA4QtSwYASITCJ34k6jE6egCFTbCcwEdIywL0g==" href="/feed/trending" title="Trending">
+               <span class="yt-valign-container">
+                <span class="thumb guide-trending-icon yt-sprite">
+                </span>
+                <span class="display-name no-count">
+                 <span>
+                  Trending
+                 </span>
+                </span>
+               </span>
+              </a>
+             </li>
+             <li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CA0QtSwYAiITCJ34k6jE6egCFTbCcwEdIywL0g==" id="history-guide-item" role="menuitem">
+              <a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="history" data-serialized-endpoint="0qDduQELEglGRWhpc3Rvcnk%3D" data-sessionlink="ei=ZoWWXuqcE5HL3LUPi-mEaA&amp;feature=g-personal&amp;ved=CAcQtSwYAiITCOrnkajE6egCFZEltwAdizQBDSiOHg" data-visibility-tracking="CA0QtSwYAiITCJ34k6jE6egCFTbCcwEdIywL0g==" href="/feed/history" title="History">
+               <span class="yt-valign-container">
+                <span class="thumb guide-history-icon yt-sprite">
+                </span>
+                <span class="display-name no-count">
+                 <span>
+                  History
+                 </span>
+                </span>
+               </span>
+              </a>
+             </li>
+            </ul>
+           </div>
+           <hr class="guide-section-separator"/>
+          </li>
+          <li class="guide-section vve-check" data-visibility-tracking="CAMQ5isYASITCJ34k6jE6egCFTbCcwEdIywL0g==">
+           <div class="guide-item-container personal-item">
+            <h3>
+             Best of YouTube
+            </h3>
+            <ul class="guide-user-links yt-uix-tdl yt-box" role="menu">
+             <li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CAsQtSwYACITCJ34k6jE6egCFTbCcwEdIywL0g==" id="UC-9-kyTW8ZkZNDHQJ6FgpwQ-guide-item" role="menuitem">
+              <a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="UC-9-kyTW8ZkZNDHQJ6FgpwQ" data-serialized-endpoint="0qDduQEaEhhVQy05LWt5VFc4WmtaTkRIUUo2Rmdwd1E%3D" data-sessionlink="ei=ZoWWXuqcE5HL3LUPi-mEaA&amp;feature=g-channel&amp;ved=CAkQtSwYACITCOrnkajE6egCFZEltwAdizQBDSiOHg" data-visibility-tracking="CAsQtSwYACITCJ34k6jE6egCFTbCcwEdIywL0g==" href="/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ" title="Music">
+               <span class="yt-valign-container">
+                <span class="thumb">
+                 <span class="video-thumb yt-thumb yt-thumb-20">
+                  <span class="yt-thumb-square">
+                   <span class="yt-thumb-clip">
+                    <img alt="" aria-hidden="true" data-thumb="//yt3.ggpht.com/zYQhquP150XaBl5f-C5PPNa9qd4ux-b4zoJnUtlESSXVI4g0CCfAAWGEsYLqyP8mjDbHcHjm0g=s20-c-k-c0xffffffff-no-nd-rj" data-ytimg="1" height="20" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="20"/>
+                    <span class="vertical-align">
+                    </span>
+                   </span>
+                  </span>
+                 </span>
+                </span>
+                <span class="display-name no-count">
+                 <span>
+                  Music
+                 </span>
+                </span>
+               </span>
+              </a>
+             </li>
+             <li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CAoQtSwYASITCJ34k6jE6egCFTbCcwEdIywL0g==" id="UCEgdi0XIXXZ-qJOFPf4JSKw-guide-item" role="menuitem">
+              <a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="UCEgdi0XIXXZ-qJOFPf4JSKw" data-serialized-endpoint="0qDduQEaEhhVQ0VnZGkwWElYWFotcUpPRlBmNEpTS3c%3D" data-sessionlink="ei=ZoWWXuqcE5HL3LUPi-mEaA&amp;feature=g-channel&amp;ved=CAoQtSwYASITCOrnkajE6egCFZEltwAdizQBDSiOHg" data-visibility-tracking="CAoQtSwYASITCJ34k6jE6egCFTbCcwEdIywL0g==" href="/channel/UCEgdi0XIXXZ-qJOFPf4JSKw" title="Sports">
+               <span class="yt-valign-container">
+                <span class="thumb">
+                 <span class="video-thumb yt-thumb yt-thumb-20">
+                  <span class="yt-thumb-square">
+                   <span class="yt-thumb-clip">
+                    <img alt="" aria-hidden="true" data-thumb="//yt3.ggpht.com/0suiXm6iuhFWYcAy3Yp_PCvskNY2Ri_MOqWVSL27T5iHXJCebB1_GOpYIBeObW6ypmKY4-wAwas=s20-c-k-c0xffffffff-no-nd-rj" data-ytimg="1" height="20" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="20"/>
+                    <span class="vertical-align">
+                    </span>
+                   </span>
+                  </span>
+                 </span>
+                </span>
+                <span class="display-name no-count">
+                 <span>
+                  Sports
+                 </span>
+                </span>
+               </span>
+              </a>
+             </li>
+             <li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CAkQtSwYAiITCJ34k6jE6egCFTbCcwEdIywL0g==" id="UCOpNcN46UbXVtpKMrmU4Abg-guide-item" role="menuitem">
+              <a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="UCOpNcN46UbXVtpKMrmU4Abg" data-serialized-endpoint="0qDduQEaEhhVQ09wTmNONDZVYlhWdHBLTXJtVTRBYmc%3D" data-sessionlink="ei=ZoWWXuqcE5HL3LUPi-mEaA&amp;feature=g-channel&amp;ved=CAsQtSwYAiITCOrnkajE6egCFZEltwAdizQBDSiOHg" data-visibility-tracking="CAkQtSwYAiITCJ34k6jE6egCFTbCcwEdIywL0g==" href="/gaming" title="Gaming">
+               <span class="yt-valign-container">
+                <span class="thumb">
+                 <span class="video-thumb yt-thumb yt-thumb-20">
+                  <span class="yt-thumb-square">
+                   <span class="yt-thumb-clip">
+                    <img alt="" aria-hidden="true" data-thumb="//yt3.ggpht.com/YtiQPvkW7Z0eIPkwpfgu_JC3qXNrha2nHp-sIJXjYXFzyFPVhk6TlHZ2mQqPkZzWvB_H4wfI=s20-c-k-c0xffffffff-no-nd-rj" data-ytimg="1" height="20" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="20"/>
+                    <span class="vertical-align">
+                    </span>
+                   </span>
+                  </span>
+                 </span>
+                </span>
+                <span class="display-name no-count">
+                 <span>
+                  Gaming
+                 </span>
+                </span>
+               </span>
+              </a>
+             </li>
+             <li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CAgQtSwYAyITCJ34k6jE6egCFTbCcwEdIywL0g==" id="UCYfdidRxbB8Qhf0Nx7ioOYw-guide-item" role="menuitem">
+              <a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="UCYfdidRxbB8Qhf0Nx7ioOYw" data-serialized-endpoint="0qDduQEaEhhVQ1lmZGlkUnhiQjhRaGYwTng3aW9PWXc%3D" data-sessionlink="ei=ZoWWXuqcE5HL3LUPi-mEaA&amp;feature=g-channel&amp;ved=CAwQtSwYAyITCOrnkajE6egCFZEltwAdizQBDSiOHg" data-visibility-tracking="CAgQtSwYAyITCJ34k6jE6egCFTbCcwEdIywL0g==" href="/channel/UCYfdidRxbB8Qhf0Nx7ioOYw" title="News">
+               <span class="yt-valign-container">
+                <span class="thumb">
+                 <span class="video-thumb yt-thumb yt-thumb-20">
+                  <span class="yt-thumb-square">
+                   <span class="yt-thumb-clip">
+                    <img alt="" aria-hidden="true" data-thumb="//yt3.ggpht.com/u1XZByRtsdqkeDaKlGWce_2q0naKuLjkdB9dk7Rcywi6NsfH6_Tg0TGgyyeJPsM--1m5ellvic0=s20-c-k-c0xffffffff-no-nd-rj" data-ytimg="1" height="20" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="20"/>
+                    <span class="vertical-align">
+                    </span>
+                   </span>
+                  </span>
+                 </span>
+                </span>
+                <span class="display-name no-count">
+                 <span>
+                  News
+                 </span>
+                </span>
+               </span>
+              </a>
+             </li>
+             <li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CAcQtSwYBCITCJ34k6jE6egCFTbCcwEdIywL0g==" id="UC4R8DWoMoI7CAwX8_LjQHig-guide-item" role="menuitem">
+              <a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="UC4R8DWoMoI7CAwX8_LjQHig" data-serialized-endpoint="0qDduQEaEhhVQzRSOERXb01vSTdDQXdYOF9MalFIaWc%3D" data-sessionlink="ei=ZoWWXuqcE5HL3LUPi-mEaA&amp;feature=g-channel&amp;ved=CA0QtSwYBCITCOrnkajE6egCFZEltwAdizQBDSiOHg" data-visibility-tracking="CAcQtSwYBCITCJ34k6jE6egCFTbCcwEdIywL0g==" href="/channel/UC4R8DWoMoI7CAwX8_LjQHig" title="Live">
+               <span class="yt-valign-container">
+                <span class="thumb">
+                 <span class="video-thumb yt-thumb yt-thumb-20">
+                  <span class="yt-thumb-square">
+                   <span class="yt-thumb-clip">
+                    <img alt="" aria-hidden="true" data-thumb="//yt3.ggpht.com/5HkUAx2SOolanKFGX7Au5O84m4XbzvjpxXowcw2EYjbZmUObb_MzjZiiSDfy3z9ImpC0PCuZIB_dlPnEqQ=s20-c-k-c0xffffffff-no-nd-rj" data-ytimg="1" height="20" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="20"/>
+                    <span class="vertical-align">
+                    </span>
+                   </span>
+                  </span>
+                 </span>
+                </span>
+                <span class="display-name no-count">
+                 <span>
+                  Live
+                 </span>
+                </span>
+               </span>
+              </a>
+             </li>
+             <li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CAYQtSwYBSITCJ34k6jE6egCFTbCcwEdIywL0g==" id="UCrpQ4p1Ql_hG8rKXIKM1MOQ-guide-item" role="menuitem">
+              <a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="UCrpQ4p1Ql_hG8rKXIKM1MOQ" data-serialized-endpoint="0qDduQEaEhhVQ3JwUTRwMVFsX2hHOHJLWElLTTFNT1E%3D" data-sessionlink="ei=ZoWWXuqcE5HL3LUPi-mEaA&amp;feature=g-channel&amp;ved=CA4QtSwYBSITCOrnkajE6egCFZEltwAdizQBDSiOHg" data-visibility-tracking="CAYQtSwYBSITCJ34k6jE6egCFTbCcwEdIywL0g==" href="/channel/UCrpQ4p1Ql_hG8rKXIKM1MOQ" title="Fashion">
+               <span class="yt-valign-container">
+                <span class="thumb">
+                 <span class="video-thumb yt-thumb yt-thumb-20">
+                  <span class="yt-thumb-square">
+                   <span class="yt-thumb-clip">
+                    <img alt="" aria-hidden="true" data-thumb="//yt3.ggpht.com/E7YhgNCr2Dk1IoVfxrYYULTfRb6Kk2hvFUGVsc8tsxHLTqTMBqQ9TNw6jUzEHHak1DQ9OdjD1g=s20-c-k-c0xffffffff-no-nd-rj" data-ytimg="1" height="20" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="20"/>
+                    <span class="vertical-align">
+                    </span>
+                   </span>
+                  </span>
+                 </span>
+                </span>
+                <span class="display-name no-count">
+                 <span>
+                  Fashion
+                 </span>
+                </span>
+               </span>
+              </a>
+             </li>
+             <li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CAUQtSwYBiITCJ34k6jE6egCFTbCcwEdIywL0g==" id="UCtFRv9O2AHqOZjjynzrv-xg-guide-item" role="menuitem">
+              <a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="UCtFRv9O2AHqOZjjynzrv-xg" data-serialized-endpoint="0qDduQEaEhhVQ3RGUnY5TzJBSHFPWmpqeW56cnYteGc%3D" data-sessionlink="ei=ZoWWXuqcE5HL3LUPi-mEaA&amp;feature=g-channel&amp;ved=CA8QtSwYBiITCOrnkajE6egCFZEltwAdizQBDSiOHg" data-visibility-tracking="CAUQtSwYBiITCJ34k6jE6egCFTbCcwEdIywL0g==" href="/learning" title="Learning">
+               <span class="yt-valign-container">
+                <span class="thumb">
+                 <span class="video-thumb yt-thumb yt-thumb-20">
+                  <span class="yt-thumb-square">
+                   <span class="yt-thumb-clip">
+                    <img alt="" aria-hidden="true" data-thumb="//yt3.ggpht.com/xA5kTw1MgVuMgKeLI_yq8yxwo8at2Y6uiSoB32I0IfEqGsjaB_dOhkFalC4REwBhWD3KqndmWw=s20-c-k-c0xffffffff-no-nd-rj" data-ytimg="1" height="20" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="20"/>
+                    <span class="vertical-align">
+                    </span>
+                   </span>
+                  </span>
+                 </span>
+                </span>
+                <span class="display-name no-count">
+                 <span>
+                  Learning
+                 </span>
+                </span>
+               </span>
+              </a>
+             </li>
+             <li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CAQQtSwYByITCJ34k6jE6egCFTbCcwEdIywL0g==" id="UCzuqhhs6NWbgTzMuM09WKDQ-guide-item" role="menuitem">
+              <a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="UCzuqhhs6NWbgTzMuM09WKDQ" data-serialized-endpoint="0qDduQEaEhhVQ3p1cWhoczZOV2JnVHpNdU0wOVdLRFE%3D" data-sessionlink="ei=ZoWWXuqcE5HL3LUPi-mEaA&amp;feature=g-channel&amp;ved=CBAQtSwYByITCOrnkajE6egCFZEltwAdizQBDSiOHg" data-visibility-tracking="CAQQtSwYByITCJ34k6jE6egCFTbCcwEdIywL0g==" href="/channel/UCzuqhhs6NWbgTzMuM09WKDQ" title="360Â° Video">
+               <span class="yt-valign-container">
+                <span class="thumb">
+                 <span class="video-thumb yt-thumb yt-thumb-20">
+                  <span class="yt-thumb-square">
+                   <span class="yt-thumb-clip">
+                    <img alt="" aria-hidden="true" data-thumb="//yt3.ggpht.com/uy4yrU5uRSbXvqvfrOrxYXp1VnE0z-ma4_eGEezicbEASJDP1OgL6crSsVRE9rFJiTsS93VqLQ=s20-c-k-c0xffffffff-no-nd-rj" data-ytimg="1" height="20" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="20"/>
+                    <span class="vertical-align">
+                    </span>
+                   </span>
+                  </span>
+                 </span>
+                </span>
+                <span class="display-name no-count">
+                 <span>
+                  360Â° Video
+                 </span>
+                </span>
+               </span>
+              </a>
+             </li>
+            </ul>
+           </div>
+           <hr class="guide-section-separator"/>
+          </li>
+          <li class="guide-section vve-check" data-visibility-tracking="CAEQ5isYAiITCJ34k6jE6egCFTbCcwEdIywL0g==">
+           <div class="guide-item-container personal-item">
+            <ul class="guide-user-links yt-uix-tdl yt-box" role="menu">
+             <li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CAIQtSwYACITCJ34k6jE6egCFTbCcwEdIywL0g==" id="guide_builder-guide-item" role="menuitem">
+              <a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="guide_builder" data-serialized-endpoint="0qDduQEREg9GRWd1aWRlX2J1aWxkZXI%3D" data-sessionlink="ei=ZoWWXuqcE5HL3LUPi-mEaA&amp;feature=g-manage&amp;ved=CBIQtSwYACITCOrnkajE6egCFZEltwAdizQBDSiOHg" data-visibility-tracking="CAIQtSwYACITCJ34k6jE6egCFTbCcwEdIywL0g==" href="/feed/guide_builder" title="Browse channels">
+               <span class="yt-valign-container">
+                <span class="thumb guide-builder-icon yt-sprite">
+                </span>
+                <span class="display-name no-count">
+                 <span>
+                  Browse channels
+                 </span>
+                </span>
+               </span>
+              </a>
+             </li>
+            </ul>
+           </div>
+           <hr class="guide-section-separator"/>
+          </li>
+          <li class="guide-section guide-header signup-promo">
+           <p>
+            Sign in to like videos, comment, and subscribe.
+           </p>
+           <div class="signed-out clearfix" id="guide-builder-promo-buttons">
+            <a class="yt-uix-button yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=ZoWWXuqcE5HL3LUPi-mEaA" href="https://accounts.google.com/ServiceLogin?passive=true&amp;hl=en&amp;uilel=3&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fnext%3D%252F%26action_handle_signin%3Dtrue%26hl%3Den%26app%3Ddesktop%26feature%3Dsign_in_promo&amp;service=youtube">
+             <span class="yt-uix-button-content">
+              Sign in
+             </span>
+            </a>
+           </div>
+          </li>
+         </ul>
+        </div>
+       </div>
+      </div>
+      <div class="hid" id="appbar-guide-notifications">
+       <div id="appbar-guide-notification-watch-later-video-added">
+        <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Added to Watch Later</span></span></div>
+    -->
+       </div>
+       <div id="appbar-guide-notification-watch-later-video-removed">
+        <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Removed from Watch Later</span></span></div>
+    -->
+       </div>
+       <div id="appbar-guide-notification-subscription">
+        <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Subscription added</span></span></div>
+    -->
+       </div>
+       <div id="appbar-guide-notification-unsubscription">
+        <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Subscription removed</span></span></div>
+    -->
+       </div>
+       <div id="appbar-guide-notification-playlist-like">
+        <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Saved to Playlists</span></span></div>
+    -->
+       </div>
+       <div id="appbar-guide-notification-playlist-unlike">
+        <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Removed from Playlists</span></span></div>
+    -->
+       </div>
+       <div id="appbar-guide-notification-playlist-video-added">
+        <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Added to playlist</span></span></div>
+    -->
+       </div>
+       <div id="appbar-guide-notification-playlist-video-removed">
+        <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Removed from playlist</span></span></div>
+    -->
+       </div>
+       <div id="appbar-guide-notification-video-like">
+        <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Added to Liked videos</span></span></div>
+    -->
+       </div>
+       <div id="appbar-guide-notification-video-unlike">
+        <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Removed from Liked videos</span></span></div>
+    -->
+       </div>
+       <div id="appbar-guide-notification-event-reminder-set">
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
